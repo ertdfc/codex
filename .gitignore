@@ -1,0 +1,35 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# JavaScript
+node_modules/
+.npm/
+.pnpm-store/
+
+# Build and coverage
+dist/
+build/
+coverage/
+.coverage
+htmlcov/
+
+# Local files
+.DS_Store
+Thumbs.db
+*.log
